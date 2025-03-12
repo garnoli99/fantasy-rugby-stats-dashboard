@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
@@ -13,8 +12,6 @@ import {
   X 
 } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
-
-<lov-add-dependency>framer-motion@latest</lov-add-dependency>
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
